@@ -1,0 +1,34 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.father{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100vw;
+	height: 100vw;
+	background-color: #ccc;
+	color: yellow;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	align-items: center;
+}
+.one,.two,.three{
+	margin: 1%;
+	padding: 2%;
+	background-color: #ffa500;
+	width: 27%;
+	height: 27%;
+	border-radius: 15px;
+}
+.begin,.stop{
+	width: 100vw;
+	height: 10vw;
+	margin-top: 10px;
+	border-radius: 10px;
+	background-color: '#fff';
+	color: '#ffa500';
+}
