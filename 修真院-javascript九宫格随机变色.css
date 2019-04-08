@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.one,.two,.three{
+	float: left;
+	margin: 1.5vw;
+	width: 30vw;
+	height: 30vw;
+	background-color: orange;
+	border-radius: 20px;
+}
+#btn1,#btn2{
+	margin-top: 10px;
+	width: 100vw;
+	height: 8vw;
+	font-size: 4vw;
+	color: orange;
+	background-color: white;
+	border: 1px solid orange;
+}
+#btn1:hover,#btn2:hover{
+	color: white;
+	background-color: orange;
+}
